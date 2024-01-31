@@ -1,0 +1,51 @@
+doctype html 
+head 
+    title 
+        | This is title 
+    link(rel="stylesheet", href="../static/style.css")
+body 
+    nav#navbar 
+        ul 
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About]
+            li #[a(href = '/') Servies]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/') Contact Us]
+    
+    section#introSection
+        div Welcome to Abhay's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    
+    
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/images/01.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/images/02.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/images/03.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+    
+    footer#footer 
+        | our footer is here
+
+    script  
+        include ../static/index.js
